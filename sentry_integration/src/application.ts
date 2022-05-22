@@ -20,7 +20,7 @@ export class SentryIntegrationApplication extends BootMixin(
 
     Sentry.init({
       dsn: 'Add your sentry dsn key here',
-      //DSN Key looks like this: 'https://9583f970c56f4524af097cceb@o999236.ingest.sentry.io/5958125',
+      //DSN Key looks like this: 'https://9586f990c56f7294af097fceb@o999248.ingest.sentry.io/5965324',
       // environment: process.env.name, //enviroment is added
       tracesSampleRate: 1.0
       //Sentry DSN Key Integration
